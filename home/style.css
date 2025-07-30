@@ -1,0 +1,63 @@
+body {
+    background-color: aquamarine;
+}
+body {
+    overflow-y: scroll;
+}
+
+#mainpage {
+    position: absolute;
+    font-size: 20px;
+    top: 100px;
+    left: 50%;
+    font-weight: 1000;
+    transform: translateX(-50%);
+}
+.setumei_main{
+    position:absolute;
+    font-size: 20px;
+    top: 150px;
+    left:50%;
+    transform: translateX(-50%);
+}
+.fixed-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;            /* バーの高さは自由に調整OK */
+    background-color: #7184e2;  /* 好きな色で！例：ダークグレーなど */
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    opacity: 0.7; /* 半透明 */
+}  
+.coingamelink {
+    height: 90px;         /* ← 単位を指定！ここが重要 */
+    font-size: 20px;
+    top: 300px;
+    transform: translateX(-50%);
+    left: 25%;
+    position: absolute;
+}
+.coingamelink {
+    padding: 2px 1px;
+    margin: 2px 0;
+    color: #fff;
+    background: #6eb7ff;
+    border-bottom: solid 6px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    margin: 0; 
+    padding: 0;
+    height: auto;
+}
+.mypagelink {
+    position: absolute;
+    top: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    left: 50%;
+    transform: translateX(-50%);
+}
